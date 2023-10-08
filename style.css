@@ -1,0 +1,106 @@
+ @import url(https://db.onlinewebfonts.com/c/c069e8e801b8222372b276c6310249c2?family=Gyahegi-PersonalUse);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #f48333;
+  }
+  body>#heading>h1{
+    color: #fff;
+    display: flex;
+    margin-left: 35%;
+    margin-top: 5%;
+    font-size: 2.5vw;
+    font-family: "Gyahegi-PersonalUse";
+    font-weight: 600;
+
+  }
+  .container {
+    background-color: #ffffff;
+    width: 90vmax;
+    padding: 50px 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px rgba(7, 20, 35, 0.2);
+  }
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+  }
+  button {
+    height: 28px;
+    width: 28px;
+    display: grid;
+    place-items: center;
+    border-radius: 3px;
+    border: none;
+    background-color: #ffffff;
+    outline: none;
+    color: #020929;
+  }
+  select {
+    padding: 7px;
+    border: 1px solid #020929;
+    border-radius: 3px;
+  }
+  .options label,
+  .options select {
+    font-family: "Poppins", sans-serif;
+  }
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  input[type="color"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    width: 40px;
+    height: 28px;
+    border: none;
+    cursor: pointer;
+  }
+  input[type="color"]::-webkit-color-swatch {
+    border-radius: 15px;
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 3px #020929;
+  }
+  input[type="color"]::-moz-color-swatch {
+    border-radius: 15px;
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 3px #020929;
+  }
+  #text-input {
+    margin-top: 10px;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    height: 50vh;
+  }
+  .active {
+    background-color: #e0e9ff;
+  }
+  #content {
+  margin-top: 1vw;
+  border-radius: 10px;
+	padding: 16px;
+	outline: none;
+	max-height: 50vh;
+	overflow: auto;
+  border: 2px solid #f48333;
+}
+.toolbar {
+	padding: 16px;
+}
+.toolbar .head {
+	display: flex;
+	grid-gap: 10px;
+	margin-bottom: 16px;
+	flex-wrap: wrap;
+}
